@@ -1,0 +1,20 @@
+.env
+
+# Ignore backups directory (organized by server)
+backups/
+
+# Ignore all sshkeys folders anywhere in the repo
+**/sshkeys/
+
+# Ignore database dump files
+*.dmp
+*.sql
+*.dump
+
+# Ignore backup archives
+*.tar.gz
+*.zip
+*.7z
+
+# Legacy: Ignore old date-formatted folders at root
+[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*/
